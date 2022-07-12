@@ -1,0 +1,8 @@
+//【初体验】这是第一题,请你先将左侧的输入框里的内容清空，然后请输入下面的SQL，您将看到所有电影标题：
+SELECT title FROM movies ✓
+//【初体验】请输入如下SQL你将看到4条电影（切记先清空数据框且出错要耐心比对）：
+SELECT title,director FROM movies WHERE Id < 5 ✓
+//【初体验】输入如下SQL你将看到电影总条数：
+SELECT count(*) FROM movies
+//【初体验】SQL可以直接做计算，下面的SQL计算1+1的和,请输入：
+SELECT 1+1
